@@ -3,4 +3,6 @@ project(NMouseJoy)
 
 set(CMAKE_CXX_STANDARD 26)
 
-add_executable(NMouseJoy main.cpp)
+include_directories(libs)
+
+add_executable(NMouseJoy NMJ.cpp)
